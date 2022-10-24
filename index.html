@@ -21,15 +21,28 @@
       }
       .Fixed {
         position: fixed;
-        height: 187.275px;
+        height: 200px;
         /* backdrop-filter: blur(10px); */
         z-index: 100;
-        background: linear-gradient(#F47C7C, #EF9F9F);
+        background: linear-gradient(#f47c7c, #ef9f9f);
         width: 100%;
       }
+
+      @media (max-width: 450px) {
+       
+        td{
+          font-size: 3.0vw;
+          font-weight: 900;
+        }
+        img1{
+          height:30px;
+         
+        }
+      }
+
       .ParentScroll {
         position: relative;
-        top: 184.275px;
+        top: 200px;
         overflow: hidden;
       }
       a {
@@ -40,17 +53,14 @@
       }
     </style>
   </head>
-  <body
-    style="
-     background-color: #EF9F9F;
-    "
-  >
-    <div class="Fixed">
-      <table cellspacing="20" style="margin: 0 auto;">
+  <body style="background-color: #ef9f9f">
+    <div class="Fixed smalltxt">
+      <table class="SmallTable" cellspacing="10" style="margin: 0 auto">
         <tr>
           <td>
             <image
-              src="./images/71088.png"
+            class="img1"
+              src="../DayOne/images/71088.png"
               alt="my-image"
               height="130"
               width="130"
@@ -70,7 +80,10 @@
               @ Novac technology Solutions
             </p>
             <p style="font-family: serif">
-              <a href="mailto:sundarkalpana56@gmail.com" method="post"> sundarkalpana56@gmail.com</a> / 6382857034
+              <a href="mailto:sundarkalpana56@gmail.com" method="post">
+                sundarkalpana56@gmail.com</a
+              >
+              / 6382857034
             </p>
           </td>
         </tr>
