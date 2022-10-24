@@ -4,32 +4,172 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" />
     <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        text-align: center;
+      }
+      h3 {
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bolder;
+      }
+      .tableOne {
+        font-style: normal;
+        font-weight: bold;
+      }
+      .Fixed {
+        position: fixed;
+        height: 187.275px;
+        /* backdrop-filter: blur(10px); */
+        z-index: 100;
+        background: linear-gradient(#F47C7C, #EF9F9F);
+        width: 100%;
+      }
+      .ParentScroll {
+        position: relative;
+        top: 184.275px;
+        overflow: hidden;
+      }
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        font-family: serif;
+      }
+    </style>
   </head>
-  <body>
-<hr size="1" noshade="color" >
+  <body
+    style="
+     background-color: #EF9F9F;
+    "
+  >
+    <div class="Fixed">
+      <table cellspacing="20" style="margin: 0 auto">
+        <tr>
+          <td>
+            <image
+              src="../DayOne/images/71088.png"
+              alt="my-image"
+              height="130"
+              width="130"
+            ></image>
+          </td>
+          <td>
+            <h1>Sundar Dass S</h1>
+            <p
+              style="
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: 400;
+              "
+            >
+              <span style="font-weight: bold; text-transform: uppercase"
+                >Test Engineer</span
+              >
+              @ Novac technology Solutions
+            </p>
+            <p style="font-family: serif">
+              <a href="mailto:sundarkalpana56@gmail.com" method="post"> sundarkalpana56@gmail.com</a> / 6382857034
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="ParentScroll">
+      <div class="Scroll">
+        <hr
+          style="
+            border-style: none;
+            border-top-style: dotted;
+            width: 8%;
+            border-width: 8px;
+            border-color: #fcecdd;
+            padding-left: 15px;
+          "
+        />
+        <h3>Summary</h3>
+        <p style="width: 60%; margin: 0 auto">
+          Currently Working in Novac Technology Solutions as a Test Engineer Of
+          around 1.1 Years, My goal is to build a successful career in Software
+          Industry, And Seeking a challenging position in an organization where
+          I can learn new skills and Also want to contribute for my company
+          growth.
+        </p>
+        <br />
+        <hr
+          style="
+            border-style: none;
+            border-top-style: dotted;
+            width: 8%;
+            border-width: 8px;
+            border-color: #fcecdd;
+            padding-left: 15px;
+          "
+        />
 
-<image src="" alt="my-image"></image>
-<br>
-<br>
+        <h3>PROGRAMMING LANGUAGE & TOOLS:</h3>
+        <br />
+        <table cellspacing="20" style="margin: auto auto">
+          <tbody>
+            <tr>
+              <td>•</td>
+              <td class="tableOne">Programming Lang & Tools</td>
+              <td>:</td>
+              <td>JAVA , Selenium, HTML ,CSS</td>
+            </tr>
+            <tr>
+              <td>•</td>
+              <td class="tableOne">Framework</td>
+              <td>:</td>
+              <td>TestNG Framework, POM, Junit and cucumber</td>
+            </tr>
+            <tr>
+              <td>•</td>
+              <td class="tableOne">Defect Management tool</td>
+              <td>:</td>
+              <td>Jira</td>
+            </tr>
+            <tr>
+              <td>•</td>
+              <td class="tableOne">Version Control tool</td>
+              <td>:</td>
+              <td>Git</td>
+            </tr>
+            <tr>
+              <td>•</td>
+              <td class="tableOne">Dependency management</td>
+              <td>:</td>
+              <td>Maven</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
 
+        <hr
+          style="
+            border-style: none;
+            border-top-style: dotted;
+            width: 8%;
+            border-width: 8px;
+            border-color: #fcecdd;
+            padding-left: 15px;
+          "
+        />
 
+        <br />
 
-    <form
-      action="mailto:sundarkalpana56@gmail.com"
-      method="post"
-      enctype="text/plain">
-      <lable> input </lable>
-      <input type="text" />
-      <br />
-      <label>Pasword</label>
-      <input type="password" />
-      <br />
-      <input type="color" />
-      <br>
-      <label>Email : </label>
-      <input type="email">
-      <input type="submit" />
-    </form>
+        <h3>EDUCATION</h3>
+
+        <p>
+          <span> UG: </span>Bachelor Of Computer Science at D.B.Jain College of
+          Arts and Science.
+        </p>
+        <p>
+          <span> PG : </span>Master Of Computer Application at Madras
+          University.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
